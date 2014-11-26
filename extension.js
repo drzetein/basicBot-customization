@@ -73,7 +73,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "Mensagem Temporária do Dia",
+        motd: "Digite a mensagem temporária do dia após o comando "!motd", sem aspas, na mesma linha.",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
