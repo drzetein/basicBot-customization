@@ -22,7 +22,7 @@
             }
         };
 
-        bot.commands.cookieCommand.cookies ['deu-lhe um biscoito de chocolate!',
+        bot.commands.cookieCommand.cookies =['deu-lhe um biscoito de chocolate!',
                     'quer te f*der até o talo!',
                     'deu-lhe um biscoito que está escrito: "Você é um viado. :trollface:"',
                     'deu-lhe um enorme biscoito que está escrito: "Quer casar comigo? :ring:"',
