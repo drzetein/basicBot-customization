@@ -10,14 +10,14 @@
         bot.retrieveSettings();
         
         bot.commands.wootCommand = {
-            command: 'woot',  //The command to be called. With the standard command literal this would be: !bacon
+            command: 'adblock',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
             type: 'exact',
             functionality: function (chat, cmd) {
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("Recomendamos que você use o OrigemWoot http://origem-woot.jimdo.com/origem-woot/ entre no site e veja o tutorial de como colocá-lo");
+                    API.sendChat("Remova as propagandas dos vídeos e de muitos outros sites instalando o AdBlock: https://getadblock.com/, ou Adblock Plus: https://adblockplus.org/pt_BR/.");
                 }
             }
         };
